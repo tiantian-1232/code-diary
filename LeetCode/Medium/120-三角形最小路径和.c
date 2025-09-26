@@ -1,3 +1,5 @@
+//动态规划 二维数组 边界情况
+
 int minimumTotal(int** triangle, int triangleSize, int* triangleColSize) {
     int f[triangleSize][triangleSize];
     memset(f,0,sizeof(f));
